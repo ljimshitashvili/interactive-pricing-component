@@ -241,6 +241,16 @@ button{
     align-items: center;
 }
 
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
 @media (min-width: 1024px){
     body{
         background-position: 50% 67px, 0 0;
@@ -325,7 +335,7 @@ button{
         line-height: 14px;
     }
 
-    footer{
+    .footer{
         display: flex;
         width: 100%;
         align-items: center;
@@ -377,6 +387,25 @@ button{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    footer a,
+    footer a:hover,
+    footer a:visited,
+    footer a:active{
+        text-decoration: none;
+        color: blue;
+        text-decoration: underline;
     }
 
     /* desktop active */
