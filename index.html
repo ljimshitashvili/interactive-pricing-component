@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive-pricing-component</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Simple, traffic-based pricing
+        </h1>
+        <p>
+            Sign-up for our 30-day trial. 
+            No credit card required. 
+        </p>
+    </header>
+    <main>
+        <div class="big-container">
+            <h2 id="pageviews">100K PAGEVIEWS</h2>
+            <div class="slider-container">
+                <input type="range" class="circle" id="range" min="1" max="500">
+            </div>
+            <div class="price">
+                <h1 class="cost">$16.00 </h1>
+                <span>/ month</span>
+            </div>
+            
+        </div>
+        <div class="container">
+            <h3>Monthly Billing</h3>
+            <div class="switch">
+                <span class="slider"></span>
+            </div>
+            <h3>Yearly Billing</h3>
+            <div class="discount-mob">
+                <p>-25%</p>
+            </div>
+            <div class="discount-desk">
+                <p>25% discount</p>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="suggestions-container">
+                <div>
+                    <img src="./interactive-pricing-component-main/images/icon-check.svg" alt="icon check">
+                    <p>Unlimited websites</p>
+                </div>
+                <div>
+                    <img src="./interactive-pricing-component-main/images/icon-check.svg" alt="icon check">
+                    <p>100% data ownership </p>
+                </div>
+                <div>
+                    <img src="./interactive-pricing-component-main/images/icon-check.svg" alt="icon check">
+                    <p>Email reports</p>
+                </div>
+            </div>
+            <button>Start my trial</button>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
