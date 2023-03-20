@@ -6,6 +6,14 @@ const active = document.querySelector('.active');
 const month = document.querySelector('.month');
 let cost;
 
+
+range.oninput = function() {
+    const value = (this.value-this.min)/(this.max-this.min)*100;
+    this.style.background = 'linear-gradient(to right, #A4F3EB 0%, #ECF0FB ' + value + '%, #ECF0FB ' + value + '%, #ECF0FB 100%)';
+
+}
+
+
 function annualConverter(){
     if(button.classList.contains('active')){
         month.textContent = "/ year"

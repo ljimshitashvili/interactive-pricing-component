@@ -65,13 +65,6 @@ main h2{
 
 
 
-.line{
-    width: 280px;
-    height: 8px;
-    border-radius: 5px;
-    background-color: #ECF0FB;
-}
-
 .circle{
     -webkit-appearance: none;
     width: 280px;
@@ -79,6 +72,7 @@ main h2{
     background-color: #ECF0FB;
     outline: none;
     border-radius: 5px;
+    background-color: #ECF0FB;
 }
 
 .circle::-webkit-slider-thumb{
